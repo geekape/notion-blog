@@ -50,6 +50,11 @@
 }
 .titleContainer a {
   color: #EAEAEA;
+  border-bottom: 2px dashed #888;
+  cursor: pointer;
+}
+.titleContainer a:hover {
+  border-color: #EAEAEA;
 }
 .draftBadge {
   border-radius: 16px;
@@ -129,6 +134,7 @@
 
 .post {
   margin: 0 auto;
+  background: var(--bg-block);
   padding: 5%;
 }
 

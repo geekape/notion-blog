@@ -18,7 +18,7 @@ export default function Profile() {
           </a>
         </p>
       </div>
-      <img src="/avatar.jpg" />
+      <img className={styles.avatar} src="https://avatars2.githubusercontent.com/u/27131698?s=460&u=b770816425f4dafb1acd3ec94e13b3c96ff76b32&v=4" />
     </section>
   )
 }

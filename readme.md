@@ -1,85 +1,97 @@
-# Notion Blog
+我今年在做京东运营的时候写过一份运营方案，想着应该对新手运营有帮助，必竟这份方案也花了我将近一上午的时间，对京东运营各方面有个大概的诠释，也希望这份京东运营方案可以给刚入京东运营的小白有帮助，其实不光是京东平台的运营，有些在整个电商平台都是这样一个方法，就是细节方面有人处理的好，有人处理的差。
 
-This is an example Next.js project that shows Next.js' upcoming SSG (static-site generation) support using Notion's **private** API for a backend.
+![http://upload-images.jianshu.io/upload_images/5404462-b1005a0cf2779921.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240](http://upload-images.jianshu.io/upload_images/5404462-b1005a0cf2779921.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-**Note**: This example uses the experimental SSG hooks only available in the Next.js canary branch! The APIs used within this example will change over time. Since it is using a private API and experimental features, use at your own risk as these things could change at any moment.
+流量是一切的根本
 
-**Live Example hosted on Vercel**: https://notion-blog.now.sh/
+### 1.免费流量
 
-## Getting Started
+**搜索流量**：店铺大部分的流量都是来自搜索流量，而搜索流量是建立在词的基础上，大词有引大流量，小词引小流量，目前搜索词排名是靠刷单来掌控的。
 
-To view the steps to setup Notion to work with this example view the post at https://notion-blog.now.sh/blog/my-first-post or follow the steps below.
+- 1．关键词：在十字绣这个小类目下，关键词就显得没有那么重要，除了刷大流量“十字绣”这个关键词，我们还可以专门的为每幅十字绣定制一个高转化的长尾词，比如说：十字绣家和万事兴，在PC、APP上刷到第一个，想必也会增加一点流量，或许转化也不错。
+- 2．京东SEO**：**这个想法来自于做百度SEO的经验，京东搜索下拉词应该是和百度下拉词一样的原理，就是在短时间内搜索量越大越排在前面，而且是根据行情来变化的，我想也是可以通过人为操控的，比如我们想刷个下拉词“十字绣金碧”，这个大词下拉估计得花点时间，不过也没有尝试过，就举这么一个例子，我们可以根据IP的切换频繁在京东搜索“十字绣金碧”，最好正常浏览下，每天重复个上百回，测试一个来月试试看，回头再搜索下“十字绣”看有没有“十字绣金碧”这个下拉词，如果有的话，这个流量就不可小视了，有好奇心的人都会点一下
+- 3．**宝贝基础：**搜索流量，顾名思义，是搜索某个关键词然后访问宝贝的流量，这时候宝贝的标题就显得非常的重要，我们可以在标题中加入各种热搜词，最好不要加和自己宝贝不相关的词，这样的话在每个热搜关键词下都有一定的流量，还有就是主图和价格，第一眼看的是主图，然后看价格，合适的话就访问宝贝了，再一个是促销，比如说“商家免邮”，“优惠券”，“满减”，“赠品”等，都是客户访问你宝贝的催化剂，当然客户看到的还有评价和好评率，这个就不多讲了。
 
-## Deploy Your Own
+**内容营销***：**这个是限于京东平台的营销，类似于软文营销，但是可以发的不何止文章，还可以发买家秀，商品，预售，试用，秒杀等，新东西都应该去尝试一下，说不定有小惊喜呢。这些内容会在品牌头条、APP店铺页、微信购物、聚喜欢上展示，这个就类似于做自媒体一样，得坚持，多发点对目标群体有用的东西。
 
-Deploy your own Notion blog with Vercel.
+- 站外流量：这个就类似于自己做京挑客一样，大部分做京挑客淘宝客这样的人要不手里有资源，要不就是有技术，而我们说的就是技术相关的百度SEO，搜索引擎优化，用户在不了解某个东西的时候是不是会百度一下，假设他想了解十字绣，就百度“十字绣什么品牌好”，我们是不是可以通过问答平台，博客，论坛，B2B，分类信息平台等网站，把这个词做到百度首页去，加上我们的店铺链接和一波自吹的话，是不是可以吸引点流量，这只是一个小例子。
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/ijjk/notion-blog/tree/master&env=NOTION_TOKEN,BLOG_INDEX_ID&envDescription=Required+env+values+for+deploying&envLink=https://github.com/ijjk/notion-blog%23getting-blog-index-and-token)
+### 2.付费流量
 
-or
+付费推广目前我了解到了有京东快车，京挑客和京东直投
 
-1. Clone this repo `git clone https://github.com/ijjk/notion-blog.git`
-2. Configure project with [`vc`](https://vercel.com/download)
-3. Add your `NOTION_TOKEN` and `BLOG_INDEX_ID` as environment variables in [your project](https://vercel.com/docs/integrations?query=envir#project-level-apis/project-based-environment-variables). See [here](#getting-blog-index-and-token) for how to find these values
-4. Do final deployment with `vc`
+- 京东快车：分为普通计划和海投计划，海投计划没什么大的技巧，能掌控的无非就是在适当的时候出适当的价，再一个就是灵活的应用品类黑名单、SKU黑名单，否定词等组件，只要有产出的都留下，当然，ROI低于1的要重视了，做引起优化，实在没办法就删除，省得亏本，只要30天有高点击高花费没有产出的就删掉。
 
-Note: if redeploying with `vc` locally and you haven't made any changes to the application's source and only edited in Notion you will need use `vc -f` to bypass build de-duping
+普通计划就有很多种玩法了，常用的有修改投放时间，投放地域，日预算，推荐搜索出价，关键词出价等，假设我做一个普通计划，里面设置几个推广单元，一个正常投放，一个限定地域，一个调高出价，一个调整关键词等，这样的话就可以看出这个宝贝在几个计划下的优劣势。
 
-## Creating Your Pages Table
+- 京挑客：类似于淘宝客，不过两者都是一样的，都是脱离平台的站外推广，相信牛B的人两个都在同时操作，这个水比较深，我曾经做过几天，但是由于各种原因没能坚持下去。
+- 京东直投：没了解之前我以为京东直投是投放渠道是各种网站广告位，软件广告，弹窗广告，之类的，了解后我才知道这些都是海投推荐做的事，京东直投主要投放的渠道是腾讯社交平台，包括QQ客户端、QQ空间、朋友网、每日精选、TIPS、微信、手机QQ、移动联盟等，还有就是今日头条新闻资讯平台，两个平台都是上亿的用户，引流那是一点问题也没有，缺点是转化太差了。
 
-**Note**: this is auto run if a table isn't detected the first time visiting `/blog`
+转化是销售额的保障
 
-### Using the Pre-Configured Script
+### 3.宝贝基础设置
 
-1. Create a blank page in Notion
-2. Clone this repo `git clone https://github.com/ijjk/notion-blog.git`
-3. Install dependencies `cd notion-blog && yarn`
-4. Run script to create table `NOTION_TOKEN='token' BLOG_INDEX_ID='new-page-id' node scripts/create-table.js` See [here](#getting-blog-index-and-token) for finding the id for the new page
+- 宝贝价格：价格因素非常重要，合适的定价能大大的提升转化
+- 宝贝主图：好的图片谁都喜欢看，没有人会喜欢看大段大段的文字，所以主图做的有创意，新颖也是提升转化的好点子
+- 宝贝评价：大部分客户买宝贝的三步骤就是看图，看价格，然后再看评价，三个晒图置顶的评价是主推款必备的，是普通款最好也能有的，要是差评置顶，那。。。，这点我深有体会
+- 宝贝问答：第一次看见宝贝问答是在淘宝上，不过京东现在也有了，不愧是老马投资的，技术也传授不少啊，宝贝提问任何一个账号都可以，无论你是否购买，但是回答就有限制了，系统自动提醒近期购买的人在限定的时间回答，如果做好这一点，自问自答就很容易了，而且问答展现的位置也很好，所以做问答也是必要的。（不过有一点，有可能会让抽中那些对宝贝影响不好的人来回答，那也比较麻烦，不过目前暂时没遇到过）
+- 宝贝活动：这个就不用多说了，像促销，满减，赠品，优惠券之类的，不光可以设置官方的，还可以自己做一些宝贝活动，例如宝贝的买家秀活动，促进买家晒图评价等。
+- 宝贝详情页：在淘宝天猫上面，商家对详情页就比较重视了，在京东上，也许是因为看详情页的人不多，所以就不太重视，其实如果可以让极少数人看到我们优质的详情页也是可以提升转化的。
+- 宝贝细节：细节这方面指的是就广了，这里主要说广告语和sku名称，广告语这方面我曾经测试过单个宝贝，好的广告语能让宝贝多买几单，没设置或者没设置好，就有可能少卖几单，一般情况下在广告语中特别说明宝贝的各种优惠，和售后保障，和产品质量，服务等，这个细节就可以过了。
 
-### Manually Creating the Table
+Sku名称这个细节我特别的看了几家排名靠前的宝贝，只有极少数人设置这个，在sku名称中加入一些买家提示，什么新手推荐，高端大气，客厅专用等一系列的词语来告诉买家，这个宝贝的一些专属价值
 
-1. Create a blank page in Notion
-2. Create a **inline** table on that page, don't use a full page table as it requires querying differently
-3. Add the below fields to the table
+### 4.客服售前工作
 
-The table should have the following properties:
+- 客服基本话术：我们可以整理好一整套的买家咨询的专业话术，塑造店铺品牌风，让买家对我们的服务印象深刻，也包括对买家的各种提问做出相应的体系化的问答。
 
-- `Page`: this the blog post's page
-- `Slug`: this is the blog post's slug relative to `/blog`, it should be a text property
-- `Published`: this filters blog posts in **production**, it should be a checkbox property
-- `Date`: this is when the blog post appears as posted, it should be a date property
-- `Authors`: this is a list of Notion users that wrote the post, it should be a person property
+**客服询单转化率：**
 
-![Example Blog Posts Table](./assets/table-view.png)
+1．客服响应时间至关重要，要重视黄金6秒的时间，快速应答
 
-## Getting Blog Index and Token
+2．客服要善用“啊”，“哦”，“呢”，“呐”等语气词，切莫用太生硬的语气回答，以免影响客户体验
 
-To get your blog index value, open Notion and Navigate to the Notion page with the table you created above. While on this page you should be able to get the page id from either:
+3．像朋友一样和客户沟通和提出建议，这样可以让客户觉得贴心，容易促成交易
 
-- the URL, if the URL of your page is https://www.notion.so/Blog-S5qv1QbUzM1wxm3H3SZRQkupi7XjXTul then your `BLOG_INDEX_ID` is `S5qv1QbU-zM1w-xm3H-3SZR-Qkupi7XjXTul`
-- the `loadPageChunk` request, if you open your developer console and go to the network tab then reload the page you should see a request for `loadPageChunk` and in the request payload you should see a `pageId` and that is your `BLOG_INDEX_ID`
+4．适当的应用表情增加亲和力，促进交易
 
-To get your Notion token, open Notion and look for the `token_v2` cookie.
+5．七分问，三分听，给客户推荐合适的宝贝
 
-## Creating Blog Posts
+6．有活动需提前告知，要有主动营销意识
 
-1. In Notion click new on the table to add a new row
-2. Fill in the Page name, slug, Date, and Authors
-3. At the top of the content area add the content you want to show as a preview (keep this under 2 paragraphs)
-4. Add a divider block under your preview content
-5. Add the rest of your content under the divider block
+### 5.**客户心理揣摩**
 
-## Running Locally
+- 人群定位：所谓的人群定位不是大概的性别，年龄，喜好等，而是更精细化的分析。
 
-To run the project locally you need to follow steps 1 and 2 of [deploying](#deploy-your-own) and then follow the below steps
+就以我们的十字绣为例，首先得了解十字绣：
 
-1. Install dependencies `yarn`
-2. Expose `NOTION_TOKEN` and `BLOG_INDEX_ID` in your environment `export NOTION_TOKEN='<your-token>'`and `export BLOG_INDEX_ID='<your-blog-index-id>'` or `set NOTION_TOKEN="<your-token>" && set BLOG_INDEX_ID="<your-blog-index-id>"` for Windows
-3. Run next in development mode `yarn dev`
-4. Build and run in production mode `yarn build && yarn start`
+根据百度百科的解释,字绣是一种古老的民族刺绣，具有悠久的历史。在中国许多民族的日常生活中，一直以来就普遍存在着自制的十字绣的工艺品。
 
-## Credits
+十字绣主要是吸引什么样的人群？什么样的人群中最多？
 
-- Guillermo Rauch [@rauchg](https://twitter.com/rauchg) for the initial idea
-- Shu Ding [@shuding\_](https://twitter.com/shuding_) for the design help
-- Luis Alvarez [@luis_fades](https://twitter.com/luis_fades) for design help and bug catching
+我们可以马上想到的是女性，家庭主妇，宝妈，十字绣爱好者
+
+从古至今，女性都是从刺绣，缝缝补补过来的，这是女性的共性
+
+那么大概是什么年龄段的女性呢？
+
+应该是30-50岁居多，因为20多岁的可能刚踏入工作还没有这么多的时候花在十字绣上，我们可以联想一下：
+
+- 关联产品：幻想一个30-50岁的女性，已婚，是全职宝妈，每天在家时间很多，想弄点东西来打发时间，当她想到十字绣，可能会担心什么？
+
+她担心的是自己不会绣，宝贝和实物不符，宝贝质量，发货速度等！
+
+这才是人群定位
+
+- 痛点营销：知道我们的目标群体之后，我们该如何的针对目标群体做相应的营销呢？针对客户所担心的，做出相应的对策和说明，让客户不顾虑，在客户看宝贝频率高的地方加上一痛点文案，比如说广告语，标题，详情页等
+
+## 售后是店铺的心脏
+
+### 6.售后基础工作
+
+- 评价回复：不论是好评差评中评，只要有意义的评价，我们都统统回复，当然中差评还是得优先回复下，针对客户的评价做出相应的问答，有时间可以挑些优质的好评（字数多有意义）做出一些感谢的回答，让客户对你的店铺记忆深刻。
+- 客户挽留：针对未付款和已取消的客户，打电话过去询问下情况和原因，当然这也得组织一套话术，不能盲目的打电话质问。
+
+### 7.售后客户留存
+
+这一点在淘宝天猫上有部分人在操作，找出一些对宝贝影响好的客户（可以在好评中筛选），回复她们的评价将它们引到QQ群或者微信群当中，把她们当成一批优质客户，或者说替你传播好口碑，当然没有人会闲的没事帮你做推广，得给她们一些好处，优惠券，礼品什么的，也许这一批人就是你新品破O的神器。
