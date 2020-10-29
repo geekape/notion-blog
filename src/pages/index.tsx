@@ -50,7 +50,7 @@ export async function getStaticProps({ preview }) {
 
 export default ({ posts = [], preview }) => {
   return (
-    <section style={{maxWidth: '70%', margin: 'auto'}}>
+    <section className="container">
       <Header />
       <Profile />
       {preview && (

@@ -137,7 +137,7 @@ const RenderPost = ({ post, redirect, preview }) => {
   }
 
   return (
-    <>
+    <section className="container">
       <Header titlePre={post.Page} />
       {preview && (
         <div className={blogStyles.previewAlertContainer}>
@@ -419,7 +419,7 @@ const RenderPost = ({ post, redirect, preview }) => {
           return toRender
         })}
       </div>
-    </>
+    </section>
   )
 }
 

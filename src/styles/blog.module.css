@@ -100,7 +100,7 @@
 }
 
 .post :global(.tweet) {
-  margin: 2rem auto;
+  margin: 2rem 0;
   text-align: center;
 }
 
@@ -128,7 +128,6 @@
 }
 
 .post {
-  max-width: calc(600px + 10%);
   margin: 0 auto;
   padding: 5%;
 }
