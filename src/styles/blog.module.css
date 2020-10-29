@@ -1,5 +1,4 @@
 .blogIndex {
-  padding: 0 5%;
 }
 
 .blogIndex h1 {
@@ -47,6 +46,10 @@
   display: inline-flex;
   align-items: center;
   justify-content: flex-start;
+  
+}
+.titleContainer a {
+  color: #EAEAEA;
 }
 .draftBadge {
   border-radius: 16px;
@@ -63,8 +66,9 @@
 }
 
 .postPreview {
-  max-width: 600px;
-  margin: 10px auto;
+  padding: 15px;
+  background-color: #444;
+  margin: auto;
   border-bottom: 1px solid rgba(0, 0, 0, 0.8);
 }
 

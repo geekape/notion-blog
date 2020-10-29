@@ -48,6 +48,14 @@ body {
   overflow-x: hidden;
 }
 
+body {
+  font-family: Georgia, serif, 'Inter var', Inter, Rubik, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+  background: #333;
+  color: #999;
+}
+
 code[class*='language-'],
 pre[class*='language-'] {
   color: #000;

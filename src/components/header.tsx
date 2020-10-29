@@ -6,8 +6,8 @@ import styles from '../styles/header.module.css'
 
 const navItems: { label: string; page?: string; link?: string }[] = [
   { label: 'Home', page: '/' },
-  { label: 'Blog', page: '/blog' },
-  { label: 'Contact', page: '/contact' },
+  { label: 'Notion Article', page: 'https://www.notion.so/Blog-6300189fce9d4877a11f5750224e863a' },
+  { label: 'My Notion', page: 'https://www.notion.so/7091c9dbe8de4601a4cbf6b9a8b1a838' },
 ]
 
 const ogImageUrl = 'https://notion-blog.now.sh/og-image.png'
@@ -28,6 +28,7 @@ export default ({ titlePre = '' }) => {
         <meta name="twitter:site" content="@_ijjk" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={ogImageUrl} />
+        <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
       </Head>
       <ul>
         {navItems.map(({ label, page, link }) => (
