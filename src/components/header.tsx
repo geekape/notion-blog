@@ -5,9 +5,9 @@ import { useRouter } from 'next/router'
 import styles from '../styles/header.module.css'
 
 const navItems: { label: string; page?: string; link?: string }[] = [
-  { label: 'Home', page: '/' },
-  { label: 'Notion Article', page: 'https://www.notion.so/Blog-6300189fce9d4877a11f5750224e863a' },
-  { label: 'My Notion', page: 'https://www.notion.so/7091c9dbe8de4601a4cbf6b9a8b1a838' },
+  { label: '首页', page: '/' },
+  { label: '所有文章', page: 'https://www.notion.so/Blog-6300189fce9d4877a11f5750224e863a' },
+  { label: '所有笔记', page: 'https://www.notion.so/7091c9dbe8de4601a4cbf6b9a8b1a838' },
 ]
 
 const ogImageUrl = 'https://notion-blog.now.sh/og-image.png'

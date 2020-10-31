@@ -309,6 +309,7 @@ const RenderPost = ({ post, redirect, preview }) => {
                     style={{
                       paddingTop: `${Math.round(block_aspect_ratio * 100)}%`,
                       position: 'relative',
+                      marginBottom: '80px'
                     }}
                     className="asset-wrapper"
                     key={id}
