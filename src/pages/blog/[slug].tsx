@@ -2,7 +2,6 @@ import Link from 'next/link'
 import fetch from 'node-fetch'
 import { useRouter } from 'next/router'
 import Header from '../../components/header'
-import Footer from '../../components/footer'
 import Heading from '../../components/heading'
 import components from '../../components/dynamic'
 import ReactJSXParser from '@zeit/react-jsx-parser'
@@ -419,7 +418,6 @@ const RenderPost = ({ post, redirect, preview }) => {
           return toRender
         })}
       </div>
-      <Footer />
     </section>
   )
 }

@@ -66,7 +66,7 @@ function createRSS(blogPosts = []) {
     <link href="/atom" rel="self" type="application/rss+xml"/>
     <link href="/" />
     <updated>${NOW}</updated>
-    <id>钟储兵博客</id>${postsString}
+    <id>My Notion Blog</id>${postsString}
   </feed>`
 }
 

@@ -18,7 +18,7 @@ export default function Profile() {
           </a>
         </p>
       </div>
-      <img className={styles.avatar} src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc0ec6093-e882-4ff5-9fcb-c4c42e5c5c22%2F.jpg?table=block&id=7091c9db-e8de-4601-a4cb-f6b9a8b1a838&width=250&userId=67d077d2-fe1f-4a17-9a2c-8442be308e27&cache=v2" />
+      <img className={styles.avatar} src="https://avatars2.githubusercontent.com/u/27131698?s=460&u=b770816425f4dafb1acd3ec94e13b3c96ff76b32&v=4" />
     </section>
   )
 }
